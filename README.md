@@ -3,7 +3,7 @@
 - 🌱 I’m currently working on my HTML, CSS, Java and Python skills and buiiding personal projects
 - 💞️ I’m looking to connect with like-minded tech enthusiasts
 - 📫 How to reach me:
-  - :keyboard: [Website](https://darylgoh.net/)
+  - :keyboard: [Website](https://www.darylgoh.net/)
   - :office: [LinkedIn](https://www.linkedin.com/in/darylgohdahui/)
   - :pencil2: [Medium articles](https://medium.com/@daryl-goh)
 
