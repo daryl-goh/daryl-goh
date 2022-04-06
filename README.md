@@ -16,6 +16,10 @@
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=daryl-goh)](https://github.com/anuraghazra/github-readme-stats)
 
 
+
+<a target="_blank" href="https://github-readme-medium-recent-article.vercel.app/medium/@khuyentran1476/0"><img src="https://github-readme-medium-recent-article.vercel.app/medium/@daryl-goh/0" alt="Recent Article 0">
+
+
 <!---
 daryl-goh/daryl-goh is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
