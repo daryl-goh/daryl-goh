@@ -9,7 +9,7 @@
 
 
 
-[![Daryl's Github Stats](https://github-readme-stats.vercel.app/api?username=daryl-goh&count_private=true&show_icons=true&theme=radical&hide_rank=false)](https://github.com/anuraghazra/github-readme-stats)
+[![Daryl's Github Stats](https://github-readme-stats.vercel.app/api?username=daryl-goh&count_private=true&show_icons=true&theme=dark&hide_rank=false)](https://github.com/anuraghazra/github-readme-stats)
 
 
 
