@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @daryl-goh
 - 👀 I’m interested in the areas of cloud computing and coding
-- 🌱 I’m currently working on my HTML, CSS, Java and Python skills and buiiding personal projects
-- 💞️ I’m looking to connect with like-minded tech enthusiasts
+- 💻 I’m currently working on my HTML, CSS, Java and Python skills and buiiding personal projects
+- 🤝🏻 I’m looking to connect with like-minded tech enthusiasts
 - 📫 How to reach me:
   - :keyboard: [Website](https://www.darylgoh.net/)
   - :office: [LinkedIn](https://www.linkedin.com/in/goh-daryl/)
