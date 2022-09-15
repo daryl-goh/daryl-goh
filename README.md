@@ -1,5 +1,5 @@
 - 👋 Hi, I’m @daryl-goh
-- 👀 I’m interested in the areas of cloud computing and coding
+- 👀 My areas of interest are cloud computing and programming
 - 💻 I’m currently working on my Java, Python, HTML and CSS skills and buiiding personal projects
 - 🤝🏻 I’m looking to connect with like-minded tech enthusiasts
 - 📫 How to reach me:
