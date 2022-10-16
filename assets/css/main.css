@@ -2306,3 +2306,53 @@ input, select, textarea {
 			}
 
 		}
+
+
+	/* Portfolio Section */
+
+		.portfolio {
+		padding-top: 10px;
+		text-align: center;
+		}
+
+		.portfolio .box {
+		padding: 50px 30px;
+		box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+		transition: all ease-in-out 0.3s;
+		}
+
+		.portfolio .box span {
+		display: block;
+		font-size: 28px;
+		font-weight: 700;
+		color: #000000;
+		}
+
+		.portfolio .box h4 {
+		font-size: 24px;
+		font-weight: 600;
+		padding: 0;
+		margin: 20px 0;
+		color: #191919;
+		}
+
+		.portfolio .box p {
+		color: #aaaaaa;
+		font-size: 15px;
+		margin: 0;
+		padding: 0;
+		}
+
+		.portfolio .box:hover {
+		background: #ffffff;
+		padding: 30px 30px 70px 30px;
+		box-shadow: 10px 15px 30px rgba(0, 0, 0, 0.18);
+		}
+
+		.portfolio .box:hover span,
+		.portfolio .box:hover h4,
+		.portfolio .box:hover p {
+		color: rgb(0, 0, 0);
+		}
+
+		/* End of Portfolio Section  */
