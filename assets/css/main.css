@@ -2247,18 +2247,18 @@ input, select, textarea {
 		background-repeat: repeat, no-repeat;
 	}
 
-/* One */
+/* About Me */
 
-	#one {
+	#aboutme {
 		background: url("../../images/White.png");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
 	}
 
-/* Two */
+/* Proficiencies */
 
-	#two {
+	#proficiencies {
 		background: url("../../images/White.png");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
@@ -2308,7 +2308,7 @@ input, select, textarea {
 		}
 
 
-	/* Portfolio Section */
+/* Portfolio Section */
 
 		.portfolio {
 		padding-top: 10px;
@@ -2355,4 +2355,4 @@ input, select, textarea {
 		color: rgb(0, 0, 0);
 		}
 
-		/* End of Portfolio Section  */
+/* End of Portfolio Section  */
