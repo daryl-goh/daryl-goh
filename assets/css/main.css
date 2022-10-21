@@ -171,7 +171,7 @@ input, select, textarea {
 
 /* Loader */
 
-	@-moz-keyframes spinner-show {
+	/* @-moz-keyframes spinner-show {
 		0% {
 			opacity: 0;
 		}
@@ -491,7 +491,7 @@ input, select, textarea {
 			line-height: 2.025em;
 		}
 
-	}
+	} */
 
 /* Type */
 
