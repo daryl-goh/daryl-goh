@@ -13,7 +13,7 @@
 
 
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=daryl-goh)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=daryl-goh&hide=jupyternotebook)](https://github.com/anuraghazra/github-readme-stats)
 
 
 
