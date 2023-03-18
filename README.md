@@ -1,6 +1,6 @@
 - 👋 Hi, I’m Daryl!
 - 👀 My areas of interest are cloud computing and programming
-- 💻 I’m currently working on my Java, Python, Angular skills and buiiding personal projects
+- 💻 I’m currently working on my Java, Python, Angular skills and building personal projects
 - 🤝🏻 I’m looking to connect with like-minded tech enthusiasts
 - 📫 How to reach me:
   - :keyboard: [Website](https://www.darylgoh.net/)
