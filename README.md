@@ -1,4 +1,4 @@
-- 👋 Hi, I’m Daryl!
+- 👋 Hello, I’m Daryl!
 - 👀 My areas of interest are cloud computing and software development
 - 💻 I’m currently working on my Java, Python, Angular skills and building personal projects
 - 🤝🏻 I’m looking to connect with like-minded tech enthusiasts
