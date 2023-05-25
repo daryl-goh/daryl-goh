@@ -184,7 +184,7 @@
 		$window
 			.on('resize', function() {
 
-				// Disable animations/transitions.
+				// Disable animations/transitions.q
 					$body.addClass('is-resizing');
 
 				clearTimeout(resizeTimeout);
