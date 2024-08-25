@@ -1,5 +1,5 @@
 - 👋 Hello there, I’m Daryl!
-- 👀 My areas of interest are cloud computing and software development
+- 👀 My areas of interest are AI/ML and software development
 - 💻 I’m currently working on my Java and Python, building personal projects and learning Machine Learning
 - 🤝🏻 I’m looking to connect with like-minded tech enthusiasts
 - 📫 How to reach me:
