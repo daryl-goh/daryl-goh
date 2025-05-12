@@ -211,3 +211,36 @@
 			});
 
 })(jQuery);
+
+
+$(function() {
+	var currentProjectIndex = 0; // Start with the first project
+  
+	// Array of project IDs
+	var projects = ['project1', 'project2', 'project3'];
+  
+	// Function to show a project by its index
+	function showProject(index) {
+	  // Hide all projects
+	  $('.project').hide();
+  
+	  // Show the project at the given index
+	  $('#' + projects[index]).show();
+	}
+  
+	// Show the first project initially
+	showProject(currentProjectIndex);
+  
+	// Click event for the "Next" button
+	$('#next-btn').click(function() {
+	  currentProjectIndex = (currentProjectIndex + 1) % projects.length; // Loop back to the first project
+	  showProject(currentProjectIndex);
+	});
+  
+	// Click event for the "Previous" button
+	$('#prev-btn').click(function() {
+	  currentProjectIndex = (currentProjectIndex - 1 + projects.length) % projects.length; // Loop back to the last project
+	  showProject(currentProjectIndex);
+	});
+  });
+  

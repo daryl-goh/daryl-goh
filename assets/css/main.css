@@ -2174,7 +2174,7 @@ input, select, textarea {
 		line-height: 1em;
 		padding: 1.5em;
 		background: #39454b;
-		color: rgba(185, 186, 187, 0.5);
+		color: rgba(255, 255, 255, 0.5);
 		overflow: hidden;
 		
 		
@@ -2197,7 +2197,7 @@ input, select, textarea {
 		}
 
 			#footer ul.menu li {
-				border-left-color: rgba(185, 186, 187, 0.2);
+				border-left-color: rgba(255, 255, 255, 0.2);
 				font-size: 0.9em;
 			}
 
@@ -2212,7 +2212,7 @@ input, select, textarea {
 				-webkit-justify-content: center;
 				-ms-justify-content: center;
 				justify-content: center;
-				line-height: 1.5em;
+				line-height: .5em;
 				text-align: center;
 				padding: 2em 1em 2em 1em;
 			}
@@ -2357,5 +2357,44 @@ input, select, textarea {
 		.portfolio .box:hover p {
 		color: rgb(0, 0, 0);
 		}
+
+		.project-carousel {
+			position: relative;
+			max-width: 100%;
+			margin: 0 auto;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		  }
+		  
+		  .project-container {
+			width: 80%;
+		  }
+		  
+		  .project {
+			display: none; /* Hide all projects by default */
+		  }
+		  
+		  #prev-btn, #next-btn {
+			position: absolute;
+			top: 50%;
+			transform: translateY(-50%);
+			font-size: 24px;
+			background-color: rgba(0, 0, 0, 0.5);
+			color: white;
+			border: none;
+			padding: 10px;
+			cursor: pointer;
+			z-index: 10;
+		  }
+		  
+		  #prev-btn {
+			left: 10px;
+		  }
+		  
+		  #next-btn {
+			right: 10px;
+		  }
+		  
 
 /* End of Portfolio Section  */
