@@ -2172,8 +2172,8 @@ input, select, textarea {
 		position: relative;
 		margin: 0;
 		line-height: 1em;
-		padding: 1.5em;
-		background: #39454b;
+		padding: 1em;
+		background: linear-gradient(135deg, #def0fa, #121212);
 		color: rgba(255, 255, 255, 0.5);
 		overflow: hidden;
 		
@@ -2398,3 +2398,26 @@ input, select, textarea {
 		  
 
 /* End of Portfolio Section  */
+
+.profile-pic {
+    width: 240px;             /* size of the photo */
+    height: 240px;            /* square for circular shape */
+    border-radius: 50%;       /* makes it circular */
+    object-fit: cover;        /* crops nicely without stretching */
+    margin-bottom: 20px;      /* space below the image */
+    border: 3px solid white;  /* optional: a subtle border */
+    transition: transform 0.3s ease; /* smooth hover effect */
+}
+
+.profile-pic:hover {
+    transform: scale(1.05);   /* small zoom on hover */
+}
+
+#intro {
+    background: linear-gradient(135deg, #def0fa, #121212);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
