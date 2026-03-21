@@ -2414,8 +2414,8 @@ input, select, textarea {
 }
 
 #intro {
-    background: linear-gradient(135deg, #def0fa, #121212);
-    color: white;
+    background: linear-gradient(135deg, #e2e2e2, #f6f6f6);
+    color: rgb(0, 0, 0);
     display: flex;
     flex-direction: column;
     justify-content: center;
