@@ -19,9 +19,7 @@
 	font-family: Old Standard TT Regular, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     line-height: 1.6;
 	/* Base font */
-	body {
-		font-size: 16px;
-	}
+	font-size: 16px;
 
 	/* Headings */
 	h1 { font-size: 2.8rem; }
@@ -37,15 +35,42 @@
 
 	/* Intro section (make it stand out) */
 	#intro h3 {
-		font-size: 2.2rem;
-		font-weight: 400;   /* clean, minimal */
-    	letter-spacing: 0.5px;
+    font-family: "Old Standard TT Regular";
+    font-size: 2.2rem;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    position: relative;
+    transition: all 0.3s ease;
 	}
 
+	#intro h3:hover {
+		letter-spacing: 1.5px;
+	}
+
+	#intro h3::after {
+		content: "";
+		position: absolute;
+		left: 50%;
+		bottom: -8px;
+		transform: translateX(-50%);
+		width: 40px;
+		height: 2px;
+		background: #a5b4fc;
+	}
 	#intro p {
 		font-size: 1.15rem;
 		max-width: 700px;
 		margin: 0 auto;
+	}
+	#typing-text::after {
+	content: "|";
+	margin-left: 5px;
+	animation: blink 1s infinite;
+	}
+
+	@keyframes blink {
+	0%, 50%, 100% { opacity: 1; }
+	25%, 75% { opacity: 0; }
 	}
 }
     </style>
@@ -74,11 +99,11 @@
 						<img src="images/profile.jpeg" alt="Daryl Goh" class="profile-pic">
 						<h3>Daryl Goh</h3>
 						<br>
-						<p><i>Building scalable automations and systems at Visa and AI-powered applications that solve real-world problems</i></p>
+						<p><i><span id="typing-text"></span></i></p>
 					</header>
 					<p>
-						I'm a Senior Systems Engineer at Visa</b>, working on 
-						mission-critical systems that power global payments</b>.
+						I'm a Senior Systems Engineer at Visa, building and operating 
+						mission-critical systems that power global payments.
 
 						<br><br>
 
@@ -166,7 +191,7 @@
 		 <section id="focus" class="main style1 dark fullscreen"> 
 			<div class="content box style2"> <header> 
 				<h3>What I'm Focused On</h3> </header> 
-				<p> - Building AI systems that solve real-world problems (especially healthcare & productivity)
+				<p> - Building AI systems that solve real-world problems (especially healthcare, finance & productivity)
 					<br> - Designing scalable, observable cloud architectures
 					<br> - Exploring multi-agent systems and autonomous workflows
 					<br> - Bridging software engineering with AI innovation </p> </div> </section>
@@ -322,6 +347,47 @@
 			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 			<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
 			<script src="assets/js/embedmedium.js"></script>
+			
+			<script>
+			const texts = [
+			"Building scalable automations and systems at Visa and AI-powered applications that solve real-world problems",
+			"Designing cloud-native & distributed architectures",
+			"Exploring AI & multi-agent systems"
+			];
+
+			let count = 0;
+			let index = 0;
+			let currentText = "";
+			let isDeleting = false;
+
+			function type() {
+			currentText = texts[count];
+
+			if (isDeleting) {
+				index--;
+			} else {
+				index++;
+			}
+
+			document.getElementById("typing-text").textContent = currentText.slice(0, index);
+
+			let speed = isDeleting ? 30 : 50;
+
+			if (!isDeleting && index === currentText.length) {
+				speed = 1500; // pause at full text
+				isDeleting = true;
+			} else if (isDeleting && index === 0) {
+				isDeleting = false;
+				count++;
+				if (count === texts.length) count = 0;
+				speed = 300;
+			}
+
+			setTimeout(type, speed);
+			}
+
+			type();
+			</script>
 
 			<df-messenger
 			intent="WELCOME"
