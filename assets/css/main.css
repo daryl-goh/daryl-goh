@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,900");
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,500");
 @import url("fontawesome-all.min.css");
 
 
@@ -546,7 +546,7 @@ input, select, textarea {
 		}
 
 	h1, h2, h3, h4, h5, h6 {
-		font-weight: 900;
+		font-weight: 500;
 		color: inherit;
 		letter-spacing: -0.0325em;
 	}
@@ -571,7 +571,7 @@ input, select, textarea {
 	}
 
 	strong, b {
-		font-weight: 900;
+		font-weight: 500;
 		color: inherit;
 	}
 
@@ -2398,6 +2398,130 @@ input, select, textarea {
 		  
 
 /* End of Portfolio Section  */
+
+/* Custom Enhancements */
+
+	/* Bigger Spotlight images */
+	#onstage > .content {
+		width: 65em;
+		max-width: calc(100% - 4em);
+	}
+
+	#onstage .gallery {
+		width: 100%;
+	}
+
+	/* Breathing room between stacked blocks */
+	#onstage .event {
+		margin-bottom: 4em;
+	}
+
+	#onstage .event:last-child {
+		margin-bottom: 0;
+	}
+
+	#portfolio .content > h4 {
+		margin-top: 3.5em;
+		margin-bottom: 1em;
+	}
+
+	#portfolio .card {
+		margin-bottom: 2.5em;
+	}
+
+	/* Clearer header / subheader hierarchy */
+	h4 {
+		opacity: 0.72;
+		letter-spacing: 0.01em;
+	}
+
+	/* Medium Articles: 4 across */
+	#jsonContent {
+		display: grid;
+		grid-template-columns: repeat(4, 1fr);
+		gap: 1.5em;
+		margin-left: 0;
+		margin-right: 0;
+	}
+
+	#jsonContent .medium-card {
+		width: 100% !important;
+		height: 300px;
+		margin: 0 !important;
+		display: flex;
+		flex-direction: column;
+		overflow: hidden;
+	}
+
+	#jsonContent .medium-card .card-img-top {
+		height: 110px;
+		object-fit: cover;
+		flex-shrink: 0;
+	}
+
+	#jsonContent .medium-card .card-body {
+		display: flex;
+		flex-direction: column;
+		flex: 1;
+		overflow: hidden;
+		padding: 0.75em;
+	}
+
+	#jsonContent .medium-card .card-title {
+		font-size: 0.95em;
+		margin-bottom: 0.4em;
+		display: -webkit-box;
+		-webkit-line-clamp: 2;
+		-webkit-box-orient: vertical;
+		overflow: hidden;
+	}
+
+	#jsonContent .medium-card .card-body p {
+		flex: 1;
+		margin: 0;
+		overflow: hidden;
+		display: -webkit-box;
+		-webkit-line-clamp: 2;
+		-webkit-box-orient: vertical;
+		font-size: 0.8em;
+	}
+
+	#jsonContent .medium-card .btn {
+		flex-shrink: 0;
+		align-self: center;
+		margin-top: 0.5em;
+		padding: 0.25em 0.75em;
+		font-size: 0.85em;
+	}
+
+	@media screen and (max-width: 980px) {
+		#jsonContent {
+			grid-template-columns: repeat(2, 1fr);
+		}
+	}
+
+	@media screen and (max-width: 560px) {
+		#jsonContent {
+			grid-template-columns: 1fr;
+		}
+	}
+
+	/* Carousel controls: stretch to full height (Bootstrap's absolute flex
+	   container was collapsing to content height instead of top:0/bottom:0) */
+	#projectCarousel .carousel-control-prev,
+	#projectCarousel .carousel-control-next {
+		top: 0;
+		height: 100%;
+	}
+
+	/* Make carousel arrows visible on light background */
+	#projectCarousel .carousel-control-prev-icon,
+	#projectCarousel .carousel-control-next-icon {
+		background-color: rgba(57, 69, 75, 0.6);
+		border-radius: 50%;
+		padding: 20px;
+		background-size: 50%;
+	}
 
 .profile-pic {
     width: 240px;             /* size of the photo */
