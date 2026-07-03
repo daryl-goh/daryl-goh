@@ -73,6 +73,21 @@
 	25%, 75% { opacity: 0; }
 	}
 }
+
+	/* Speaking & Events gallery: force consistent thumbnail size */
+	#onstage .gallery .image img {
+		height: 260px;
+		object-fit: cover;
+	}
+	#onstage .gallery .image img.pos-right {
+		object-position: right center;
+	}
+	#onstage .event {
+		margin-bottom: 3.5em;
+	}
+	#onstage .event:last-child {
+		margin-bottom: 0;
+	}
     </style>
 	</head>
 	<body class="is-preload">
@@ -83,8 +98,8 @@
 				<nav>
 					<ul>
 						<li><a href="#intro">Intro</a></li>
-						<li><a href="#aboutme">About Me</a></li>
 						<li><a href="#proficiencies">Proficiencies</a></li>
+						<li><a href="#onstage">Spotlight</a></li>
 						<li><a href="#focus">Focus</a></li>
 						<li><a href="#portfolio">Portfolio</a></li>
 						<li><a href="#contact">Contact</a></li>
@@ -102,19 +117,13 @@
 						<p><i><span id="typing-text"></span></i></p>
 					</header>
 					<p>
-						I'm a Senior Systems Engineer at Visa, building and operating 
-						mission-critical systems that power global payments.
+						I'm a Senior Systems Engineer at Visa, building and operating
+						mission-critical systems that power global payments. My work spans cloud-native infrastructure, automation, and distributed systems, ensuring platforms are scalable, observable, and resilient at enterprise scale.
 
 						<br><br>
 
-						My focus is on cloud-native infrastructure, automation, and distributed systems, 
-						building platforms that are scalable, observable, and resilient at enterprise scale.
-
-						<br><br>
-
-						I'm also actively building AI-driven systems, exploring how 
-						LLMs and multi-agent architectures can transform industries like 
-						healthcare, finance, and productivity.
+						I'm working towards becoming an AI Engineer, driven by a goal to solve real-world problems with AI and ML — building LLM-powered
+						and multi-agent systems for industries like healthcare, finance, and productivity.
 
 						<br><br>
 
@@ -134,64 +143,85 @@
 				</div>
 			</section>
 
-		<!-- About Me -->
-			<section id="aboutme" class="main style1 dark fullscreen">
-				<div class="content box style2">
-					<header>
-						<h3>About Me</h3>
-					</header>
-					<p>
-						I'm a Senior Systems Engineer with a strong foundation in <b>cloud infrastructure, automation, and software development</b>, now focused on building <b>AI-driven systems</b>.
-						<br><br>
-						Over the past few years, I've worked across <b>AWS, Kubernetes, and distributed systems</b>, while independently developing applications that combine <b>LLMs, data systems, and real-world use cases</b>.
-						<br><br>
-						My <b>credentials</b> include:
-						<br>
-						- AWS Certified Solutions Architect Associate
-						<br>
-						- Red Hat Certified Engineer
-						<br>
-						- Certified Kubernetes Administrator
-						<br><br>
-						<b>Currently working on:</b> Building my own multi-agent application using Langgraph and LLMs.
-						<br><br>
-						I am currently a Section Leader in Stanford University's Code in Place program, where I mentor students in Python programming and software development.
-						<br><br>
-						I share my experiences, insights, and learnings with the tech community on <b><a href="https://medium.com/@daryl-goh">Medium</a></b>, hoping to inspire and learn from others.
-						<br><br>
-						When I'm not geeking out, you can find me:
-						<br>
-						- Traveling to new places and experiencing different cultures (15 countries and counting!)
-						<br>
-						- Hunting for the next big stock market opportunity
-						<br>
-						- Getting lost in a good book
-						
-						<br><br>
-
-					</p>
-				</div>
-			</section>
-
 		<!-- Proficiencies -->
 			<section id="proficiencies" class="main style1 dark fullscreen">
 				<div class="content box style2">
 					<header>
 						<h3>Proficiencies</h3>
 					</header>
-						<strong>AI Tools & Technologies:</strong> OpenAI GPT, Claude, GitHub Copilot, LangChain, CrewAI  
-						<br><strong>Cloud & Infrastructure:</strong> AWS, GCP, Kubernetes, OpenShift, Docker, Podman  
-						<br><strong>Infrastructure as Code & Automation:</strong> Terraform, Ansible, Python, PowerShell  
-						<br><strong>Programming:</strong> Python, Java (Spring Boot), TypeScript, JavaScript  
-						<br><strong>Frontend:</strong> HTML, CSS, Angular  
-						<br><strong>Databases:</strong> MySQL, MongoDB, Redis, ClickHouse  
-						<br><strong>Monitoring & Visualization:</strong> Prometheus, Grafana, Tableau  
-						<!-- <br><strong>Software: </strong>Microsoft Excel, PowerPoint, Word, Adobe Illustrator, InDesign, Lightroom, Photoshop, 
+						<strong>Certifications:</strong> NVIDIA-Certified Associate: AI Infrastructure and Operations, Red Hat Certified Developer in AI, HashiCorp Certified: Terraform Associate (003), AWS Certified Solutions Architect Associate, Red Hat Certified Engineer, Certified Kubernetes Administrator
+						<br><strong>AI Tools & Technologies:</strong> OpenAI GPT, Claude, GitHub Copilot, LangChain, CrewAI
+						<br><strong>Cloud & Infrastructure:</strong> AWS, GCP, Kubernetes, OpenShift, Docker, Podman
+						<br><strong>Infrastructure as Code & Automation:</strong> Terraform, Ansible, Python, PowerShell
+						<br><strong>Programming:</strong> Python, Java (Spring Boot), TypeScript, JavaScript
+						<br><strong>Frontend:</strong> HTML, CSS, Angular
+						<br><strong>Databases:</strong> MySQL, MongoDB, Redis, ClickHouse
+						<br><strong>Monitoring & Visualization:</strong> Prometheus, Grafana, Tableau
+						<!-- <br><strong>Software: </strong>Microsoft Excel, PowerPoint, Word, Adobe Illustrator, InDesign, Lightroom, Photoshop,
 						Premiere Pro -->
 				</div>
-				
+
 			</section>
-		<!-- Focus --> 
+
+		<!-- On Stage -->
+			<section id="onstage" class="main style1 dark fullscreen">
+				<div class="content box style2">
+					<header>
+						<h3>Spotlight</h3>
+						<p>Moments from panels, fireside chats, and town halls I've had the privilege of hosting or taking part in.</p>
+					</header>
+
+					<div class="event">
+						<h4>Visa Career Expo — Panel Discussion</h4>
+						<p>
+							Panelist for <em>"Every Way You Want to Grow: Different Pathways to Growth,"</em> alongside David Fowler, Benazir Begum and Catia Santos.
+							Shared my own non-linear journey from finance into tech, and reflections on growth, consistency, and curiosity.
+						</p>
+						<div class="gallery">
+							<article class="from-left">
+								<a href="images/fulls/expo-panel-1.jpg" class="image fit"><img src="images/thumbs/expo-panel-1.jpg" alt="Visa Career Expo panel discussion" /></a>
+							</article>
+							<article class="from-right">
+								<a href="images/fulls/expo-panel-2.jpg" class="image fit"><img src="images/thumbs/expo-panel-2.jpg" alt="Visa Career Expo panel discussion" class="pos-right" /></a>
+							</article>
+						</div>
+					</div>
+
+					<div class="event">
+						<h4>O&amp;I Day — Fireside Chat with Gary Slater</h4>
+						<p>
+							Hosted a fireside chat with Gary Slater, SVP of Operations &amp; Infrastructure, at the Visa Singapore Tech Site's inaugural O&amp;I Day —
+							a full house of 380+ colleagues, with insights on staying calm under pressure, active listening, and asking better questions.
+						</p>
+						<div class="gallery">
+							<article class="from-left">
+								<a href="images/fulls/oi-day-1.jpg" class="image fit"><img src="images/thumbs/oi-day-1.jpg" alt="O&I Day fireside chat with Gary Slater" /></a>
+							</article>
+							<article class="from-right">
+								<a href="images/fulls/oi-day-2.jpg" class="image fit"><img src="images/thumbs/oi-day-2.jpg" alt="O&I Day fireside chat with Gary Slater" /></a>
+							</article>
+						</div>
+					</div>
+
+					<div class="event">
+						<h4>Technology Town Hall &amp; VTTP-NCG Fireside Chat</h4>
+						<p>
+							Emceed the Technology Town Hall and moderated the VTTP-NCG fireside chat during President of Technology Rajat Taneja's visit to our Singapore office —
+							on staying curious, embracing discomfort, and finding passion in our work.
+						</p>
+						<div class="gallery">
+							<article class="from-left">
+								<a href="images/fulls/townhall-1.jpg" class="image fit"><img src="images/thumbs/townhall-1.jpg" alt="Technology Town Hall with Rajat Taneja" /></a>
+							</article>
+							<article class="from-right">
+								<a href="images/fulls/townhall-2.jpg" class="image fit"><img src="images/thumbs/townhall-2.jpg" alt="Technology Town Hall with Rajat Taneja" /></a>
+							</article>
+						</div>
+					</div>
+				</div>
+			</section>
+
+		<!-- Focus -->
 		 <section id="focus" class="main style1 dark fullscreen"> 
 			<div class="content box style2"> <header> 
 				<h3>What I'm Focused On</h3> </header> 
