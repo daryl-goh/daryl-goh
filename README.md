@@ -11,9 +11,6 @@
 
 [![Daryl's GitHub stats](https://github-stats-extended.vercel.app/api?username=daryl-goh)](https://github.com/stats-organization/github-stats-extended)
 
-[![Top Langs](https://github-stats-extended.vercel.app/api?username=daryl-goh&hide=jupyter%20notebook,scss)](https://github.com/anuraghazra/github-readme-stats)
-
-
 
 
 
