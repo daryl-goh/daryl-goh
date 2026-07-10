@@ -9,9 +9,7 @@
 
 
 
-[![Daryl's Github Stats](https://github-readme-stats.vercel.app/api?username=daryl-goh&count_private=true&show_icons=true&theme=dark&hide_rank=false)](https://github.com/anuraghazra/github-readme-stats)
-
-
+[![Daryl's GitHub stats](https://github-stats-extended.vercel.app/api?username=daryl-goh)](https://github.com/stats-organization/github-stats-extended)
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=daryl-goh&hide=jupyter%20notebook,scss)](https://github.com/anuraghazra/github-readme-stats)
 
